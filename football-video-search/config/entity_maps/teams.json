@@ -1,0 +1,54 @@
+{
+  "teams": [
+    {
+      "canonical": "FC Barcelona",
+      "normalized_key": "fc_barcelona",
+      "aliases": ["Barcelona", "Barca", "FCB", "Barça", "the Catalans", "Blaugrana"]
+    },
+    {
+      "canonical": "Real Madrid",
+      "normalized_key": "real_madrid",
+      "aliases": ["Madrid", "Real", "RM", "Los Blancos", "Los Merengues", "the Whites"]
+    },
+    {
+      "canonical": "Manchester United",
+      "normalized_key": "manchester_united",
+      "aliases": ["Man United", "Man Utd", "United", "MUFC", "the Red Devils"]
+    },
+    {
+      "canonical": "Manchester City",
+      "normalized_key": "manchester_city",
+      "aliases": ["Man City", "City", "MCFC", "the Citizens", "the Blues"]
+    },
+    {
+      "canonical": "Liverpool",
+      "normalized_key": "liverpool",
+      "aliases": ["LFC", "the Reds", "the Kop"]
+    },
+    {
+      "canonical": "Arsenal",
+      "normalized_key": "arsenal",
+      "aliases": ["AFC", "the Gunners", "the Gooners"]
+    },
+    {
+      "canonical": "Chelsea",
+      "normalized_key": "chelsea",
+      "aliases": ["CFC", "the Blues", "the Pensioners"]
+    },
+    {
+      "canonical": "Juventus",
+      "normalized_key": "juventus",
+      "aliases": ["Juve", "the Old Lady", "Bianconeri"]
+    },
+    {
+      "canonical": "Bayern Munich",
+      "normalized_key": "bayern_munich",
+      "aliases": ["Bayern", "FCB", "the Bavarians"]
+    },
+    {
+      "canonical": "Paris Saint-Germain",
+      "normalized_key": "paris_saint_germain",
+      "aliases": ["PSG", "Paris", "les Parisiens"]
+    }
+  ]
+}

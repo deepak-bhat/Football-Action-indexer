@@ -1,0 +1,26 @@
+{
+  "players": [
+    {
+      "canonical": "Lionel Messi",
+      "normalized_key": "messi_lionel",
+      "aliases": ["Messi", "Leo", "Leo Messi", "La Pulga", "#10", "10"],
+      "teams": {
+        "2004-21": "FC Barcelona",
+        "2021-23": "Paris Saint-Germain",
+        "2023-": "Inter Miami"
+      }
+    },
+    {
+      "canonical": "Cristiano Ronaldo",
+      "normalized_key": "ronaldo_cristiano",
+      "aliases": ["Ronaldo", "CR7", "Cristiano", "#7", "7"],
+      "teams": {
+        "2003-09": "Manchester United",
+        "2009-18": "Real Madrid",
+        "2018-21": "Juventus",
+        "2021-22": "Manchester United",
+        "2023-": "Al Nassr"
+      }
+    }
+  ]
+}
