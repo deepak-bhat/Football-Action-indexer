@@ -30,7 +30,10 @@ class Settings(BaseSettings):
     replay_window_seconds: int = 120
 
     # Qdrant
-    qdrant_host: str = "localhost"
+    # Set qdrant_path to a directory for embedded (no-server) mode — recommended when Docker is unavailable.
+    # Set qdrant_host/port instead to connect to a running Qdrant server.
+    qdrant_path: str = "data/qdrant"          # embedded local storage
+    qdrant_host: str = ""                     # leave empty to use embedded mode
     qdrant_port: int = 6333
     qdrant_collection: str = "football_events"
 

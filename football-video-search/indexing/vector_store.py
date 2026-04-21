@@ -45,10 +45,19 @@ class SearchResult:
 
 class VectorStore:
     def __init__(self):
-        self._client = QdrantClient(
-            host=settings.qdrant_host,
-            port=settings.qdrant_port,
-        )
+        if settings.qdrant_host:
+            # Remote server mode (Docker or standalone Qdrant binary)
+            self._client = QdrantClient(
+                host=settings.qdrant_host,
+                port=settings.qdrant_port,
+            )
+        else:
+            # Embedded mode: Qdrant runs in-process, persists to local directory.
+            # No Docker, no server binary required.
+            import os
+            os.makedirs(settings.qdrant_path, exist_ok=True)
+            self._client = QdrantClient(path=settings.qdrant_path)
+
         self._collection = settings.qdrant_collection
         self._ensure_collection()
 
